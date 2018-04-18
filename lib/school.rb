@@ -22,6 +22,9 @@ class School
   end
 
   def sort
+    a = @roster.sort_by {|grade, students| grade}
+
+    ###_______
     # sorted_students = {}
     # @roster.each do |grade, students|
     #   binding.pry #grade
@@ -29,8 +32,7 @@ class School
     # #   binding.pry
     # end
     # #   sorted_students
-    @roster.sort(key)
-    # binding.pry
+
   end
 
 end
