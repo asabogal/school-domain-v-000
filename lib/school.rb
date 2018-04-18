@@ -29,7 +29,7 @@ class School
     # #   binding.pry
     # end
     # #   sorted_students
-    @roster.sort(keys)
+    @roster.sort(key)
     # binding.pry
   end
 
