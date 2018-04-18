@@ -22,14 +22,14 @@ class School
   end
 
   def sort
-    sorted_students = {}
-    @roster.each do |grade, students|
-      binding.pry #grade
-    #   sorted_students[grade] = students.sort
-    #   binding.pry
-    end
-    #   sorted_students
-
+    # sorted_students = {}
+    # @roster.each do |grade, students|
+    #   binding.pry #grade
+    # #   sorted_students[grade] = students.sort
+    # #   binding.pry
+    # end
+    # #   sorted_students
+    @roster.sort(keys)
     # binding.pry
   end
 
