@@ -22,18 +22,6 @@ class School
   end
 
   def sort
-    a = @roster.sort_by {|grade, students| grade}
-    b = @roster.sort_by {|grade, students| students}
-    binding.pry
-    ###_______
-    # sorted_students = {}
-    # @roster.each do |grade, students|
-    #   binding.pry #grade
-    # #   sorted_students[grade] = students.sort
-    # #   binding.pry
-    # end
-    # #   sorted_students
-
   end
 
 end
