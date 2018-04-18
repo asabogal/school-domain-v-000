@@ -28,7 +28,7 @@ class School
     #   binding.pry
     # end
     #   sorted_students
-    @roster.sort.to_h
+    @roster
     # binding.pry
   end
 
